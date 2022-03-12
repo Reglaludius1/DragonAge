@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Admin\\RiderProjects\\DragonAge\\DragonAge\\DragonAge.csproj": {}
+    "C:\\Users\\Admin\\Desktop\\Folder\\DragonAge\\DragonAge.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Admin\\RiderProjects\\DragonAge\\DragonAge\\DragonAge.csproj": {
+    "C:\\Users\\Admin\\Desktop\\Folder\\DragonAge\\DragonAge.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Admin\\RiderProjects\\DragonAge\\DragonAge\\DragonAge.csproj",
+        "projectUniqueName": "C:\\Users\\Admin\\Desktop\\Folder\\DragonAge\\DragonAge.csproj",
         "projectName": "DragonAge",
-        "projectPath": "C:\\Users\\Admin\\RiderProjects\\DragonAge\\DragonAge\\DragonAge.csproj",
+        "projectPath": "C:\\Users\\Admin\\Desktop\\Folder\\DragonAge\\DragonAge.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Admin\\RiderProjects\\DragonAge\\DragonAge\\obj\\",
+        "outputPath": "C:\\Users\\Admin\\Desktop\\Folder\\DragonAge\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",

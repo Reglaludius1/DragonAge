@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "0Vki1OE4shEeTcp7/V+iNVWDkvsICMhWKsHtRkiYtr8Ssl5mA6t5DMWv3cc0TtNdsiJ3cOkwM3tWlhv8ETnWVg==",
+  "dgSpecHash": "B4AghlVX86MWsohYPpSyclzldCzwdc5ZWHsR9u+SX0u52UpYsUDspJKM1jSjFRkyhfaoZaFJ0f+Sw1oek8ETvQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Admin\\RiderProjects\\DragonAge\\DragonAge\\DragonAge.csproj",
+  "projectFilePath": "C:\\Users\\Admin\\Desktop\\Folder\\DragonAge\\DragonAge.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Admin\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\microsoft.data.sqlite.core\\6.0.3\\microsoft.data.sqlite.core.6.0.3.nupkg.sha512",

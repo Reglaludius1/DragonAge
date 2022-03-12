@@ -27,18 +27,13 @@ public class CodicesController : ControllerBase
 
     [HttpGet]
     [Route("{id:int}")]
-    public ActionResult<Codex> GetById(int id)
-    {
-        return _db.Codices.Single(codex => codex.Id == id);
-    }
+        
+    public ActionResult<Codex> GetById(int id) =>  _db.Codices.Single(codex => codex.Id == id);
 
     [HttpGet]
     [Route(("GetByCategory"))]
 
-    public ActionResult<List<Codex>> GetByCategory(string category)
-    {
-        return _db.Codices.Where(codex => codex.Category == category).ToList();
-    }
+    public ActionResult<List<Codex>> GetByCategory(string category) => _db.Codices.Where(codex => codex.Category == category).ToList();
 
     [HttpPost]
     [Route("Create")]
@@ -77,57 +72,7 @@ public class CodicesController : ControllerBase
         return StatusCode(201);
     }
 }
-/*
-[HttpPost]
-public ActionResult Create(Game game)
-{
-    _service.Create(game);
 
-    return CreatedAtAction(nameof(Create), new {id = game.Id}, game);
-}
-*/
-
-    /*
-    [HttpGet]
-    [Route("{id:int}")]
-    public ActionResult<Game> Read(int id)
-    {
-        var game = _service.Read(id);
-            
-        if (game == null)
-        {
-            return NotFound();
-        }
-
-        return game;
-    }*/
-    /*[HttpPatch]
-    [Route("{id:int}")]
-    public ActionResult Update(int id, Game game)
-    {
-        var existingGame = _service.Read(id);
-            
-        if (existingGame == null)
-        {
-            return NotFound();
-        }
-
-        _service.Update(id, game);
-
-        return NoContent();
-        
-          [HttpDelete]
-        [Route("{id:int}")]
-        public ActionResult Delete(int id)
-        {
-            var game = _service.Read(id);
-            
-            if (game == null)
-            {
-                return NotFound();
-            }
-
-    }*/
 
 
 
